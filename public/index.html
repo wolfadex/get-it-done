@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <script src="elm-portal.js"></script>
     <script src="elm.js"></script>
     <script>
-      Elm.Main.init();
+      const app = Elm.Main.init();
+      app.ports.toggleDialog.subscribe(function (id) {
+        const dialog = document.getElementById(id);
+
+        if (dialog.open) {
+          dialog.close();
+        } else {
+          dialog.showModal();
+        }
+      });
     </script>
   </body>
 </html>
