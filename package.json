@@ -1,0 +1,25 @@
+{
+  "name": "get-it-done",
+  "version": "1.0.0",
+  "description": "A very basic template for an [Elm](https://elm-lang.org/) project, using [Nix](https://nixos.org/) and [direnv](https://direnv.net/).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-pty run-pty.json",
+    "dev:elm": "elm-watch hot",
+    "dev:server": "http-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfadex/elm-nix.git"
+  },
+  "author": "Wolfgang Schuster",
+  "bugs": {
+    "url": "https://github.com/wolfadex/elm-nix/issues"
+  },
+  "homepage": "https://github.com/wolfadex/elm-nix#readme",
+  "devDependencies": {
+    "elm-watch": "^1.0.2",
+    "http-server": "^14.1.1",
+    "run-pty": "^4.0.2"
+  }
+}

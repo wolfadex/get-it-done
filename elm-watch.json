@@ -1,0 +1,8 @@
+{
+  "targets": {
+    "Get it done app": {
+      "inputs": ["src/Main.elm"],
+      "output": "public/elm.js"
+    }
+  }
+}
