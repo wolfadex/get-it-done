@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/wolfadex/elm-nix#readme",
   "devDependencies": {
+    "elm-env-gen": "file:../elm-env-gen",
     "elm-watch": "^1.0.2",
     "http-server": "^14.1.1",
     "run-pty": "^4.0.2"
