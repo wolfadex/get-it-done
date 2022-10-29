@@ -23,12 +23,6 @@ main =
         }
 
 
-
--- curl 'https://piwvahjfjjuzzrfniwcw.supabase.co/rest/v1/Tasks' \
--- -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpd3ZhaGpmamp1enpyZm5pd2N3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjY2NTg3NDksImV4cCI6MTk4MjIzNDc0OX0.JWqbRoYtHhfsQ0F3i1D-11nkO7kwUgo9EqaCHiq4Ct0" \
--- -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpd3ZhaGpmamp1enpyZm5pd2N3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjY2NTg3NDksImV4cCI6MTk4MjIzNDc0OX0.JWqbRoYtHhfsQ0F3i1D-11nkO7kwUgo9EqaCHiq4Ct0"
-
-
 type Model
     = Authenticated AuthenticatedModel
     | Unauthenticated { email : String, password : String }
